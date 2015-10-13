@@ -25,9 +25,7 @@
     },
 
     togglePiece: function(rowIndex, colIndex) {
-      debugger;
       this.get(rowIndex)[colIndex] = + !this.get(rowIndex)[colIndex];
-      debugger;
       this.trigger('change');
       // if(this.attributes[rowIndex][colIndex] === 0){
       //   this.attributes[rowIndex][colIndex] = 1;
